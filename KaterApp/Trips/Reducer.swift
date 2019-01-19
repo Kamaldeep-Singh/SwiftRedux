@@ -9,7 +9,7 @@
 import Foundation
 import ReSwift
 
-func tripReducer(action: Action, state: AppState?) -> AppState {
+public func tripReducer(action: Action, state: AppState?) -> AppState {
 	var newState = state ?? AppState(trips: [], newTrip: nil)
 	guard let action = action as? TripAction else {
 		return newState

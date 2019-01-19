@@ -11,7 +11,7 @@ import ReSwift
 import ReSwiftThunk
 
 // UI Actions
-enum TripAction: Action {
+public enum TripAction: Action {
 	case listTrips([Trip])
 	case addTrip
 	case setDate(Date)
@@ -26,7 +26,7 @@ enum TripAction: Action {
 }
 
 // Network Actions
-func fetch<T: Codable>(_ request: URLRequest, completion: ((T) -> Void)?) {
+public func fetch<T: Codable>(_ request: URLRequest, completion: ((T) -> Void)?) {
 	URLSession.shared.dataTask(with: request) { (data, res, err) in
 		let decoder = JSONDecoder()
 		decoder.dateDecodingStrategy = .deferredToDate
@@ -38,12 +38,10 @@ func fetch<T: Codable>(_ request: URLRequest, completion: ((T) -> Void)?) {
 	}.resume()
 }
 
-func addTripRequestAction(_ trip: Trip) -> Thunk<AppState> {
+public func addTripRequestAction(_ trip: Trip) -> Thunk<AppState> {
 	return Thunk<AppState> { dispatch, getState in
 		var req = URLRequest(url: URL(string: "http://localhost:2334/add")!)
-		req.httpBody = try? JSONEncoder().encode([
-			"date": trip.date
-		])
+		req.httpBody = try? JSONEncoder().encode(trip)
 		req.httpMethod = "POST"
 		req.addValue("application/json", forHTTPHeaderField: "Content-Type")
 		fetch(req) {

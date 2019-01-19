@@ -10,7 +10,7 @@ import UIKit
 import ReSwift
 import ReSwiftThunk
 
-struct AppState: StateType {
+public struct AppState: StateType {
 	var trips: [Trip] = []
 	var newTrip: Trip?
 }

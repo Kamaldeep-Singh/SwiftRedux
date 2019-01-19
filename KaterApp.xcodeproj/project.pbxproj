@@ -20,7 +20,18 @@
 		A2F1FCD021F2FAC600496A04 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCCF21F2FAC600496A04 /* Reducer.swift */; };
 		A2F1FCD221F3BEF500496A04 /* ReSwiftThunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F1FCD121F3BEF400496A04 /* ReSwiftThunk.framework */; };
 		A2F1FCD421F3D5F600496A04 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCD321F3D5F600496A04 /* TripListViewController.swift */; };
+		A2F1FCDC21F3DD8D00496A04 /* KaterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCDB21F3DD8D00496A04 /* KaterAppTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F1FCDE21F3DD8D00496A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F1FC8121F29E0100496A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F1FC8821F29E0100496A04;
+			remoteInfo = KaterApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A2F1FC8921F29E0100496A04 /* KaterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +49,9 @@
 		A2F1FCCF21F2FAC600496A04 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		A2F1FCD121F3BEF400496A04 /* ReSwiftThunk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftThunk.framework; path = Carthage/Build/iOS/ReSwiftThunk.framework; sourceTree = "<group>"; };
 		A2F1FCD321F3D5F600496A04 /* TripListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
+		A2F1FCD921F3DD8D00496A04 /* KaterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F1FCDB21F3DD8D00496A04 /* KaterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaterAppTests.swift; sourceTree = "<group>"; };
+		A2F1FCDD21F3DD8D00496A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2F1FCD621F3DD8D00496A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F1FC8B21F29E0100496A04 /* KaterApp */,
+				A2F1FCDA21F3DD8D00496A04 /* KaterAppTests */,
 				A2F1FC8A21F29E0100496A04 /* Products */,
 				A2F1FCC321F2F39400496A04 /* Frameworks */,
 			);
@@ -66,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F1FC8921F29E0100496A04 /* KaterApp.app */,
+				A2F1FCD921F3DD8D00496A04 /* KaterAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +129,15 @@
 			path = Trips;
 			sourceTree = "<group>";
 		};
+		A2F1FCDA21F3DD8D00496A04 /* KaterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1FCDB21F3DD8D00496A04 /* KaterAppTests.swift */,
+				A2F1FCDD21F3DD8D00496A04 /* Info.plist */,
+			);
+			path = KaterAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +159,24 @@
 			productReference = A2F1FC8921F29E0100496A04 /* KaterApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A2F1FCD821F3DD8D00496A04 /* KaterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F1FCE021F3DD8D00496A04 /* Build configuration list for PBXNativeTarget "KaterAppTests" */;
+			buildPhases = (
+				A2F1FCD521F3DD8D00496A04 /* Sources */,
+				A2F1FCD621F3DD8D00496A04 /* Frameworks */,
+				A2F1FCD721F3DD8D00496A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F1FCDF21F3DD8D00496A04 /* PBXTargetDependency */,
+			);
+			name = KaterAppTests;
+			productName = KaterAppTests;
+			productReference = A2F1FCD921F3DD8D00496A04 /* KaterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +189,10 @@
 				TargetAttributes = {
 					A2F1FC8821F29E0100496A04 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					A2F1FCD821F3DD8D00496A04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A2F1FC8821F29E0100496A04;
 					};
 				};
 			};
@@ -156,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				A2F1FC8821F29E0100496A04 /* KaterApp */,
+				A2F1FCD821F3DD8D00496A04 /* KaterAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +223,13 @@
 				A2F1FC9921F29E0300496A04 /* LaunchScreen.storyboard in Resources */,
 				A2F1FC9621F29E0300496A04 /* Assets.xcassets in Resources */,
 				A2F1FC9421F29E0100496A04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F1FCD721F3DD8D00496A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +275,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2F1FCD521F3DD8D00496A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F1FCDC21F3DD8D00496A04 /* KaterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F1FCDF21F3DD8D00496A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F1FC8821F29E0100496A04 /* KaterApp */;
+			targetProxy = A2F1FCDE21F3DD8D00496A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A2F1FC9221F29E0100496A04 /* Main.storyboard */ = {
@@ -395,6 +473,46 @@
 			};
 			name = Release;
 		};
+		A2F1FCE121F3DD8D00496A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT99SMQYYW;
+				INFOPLIST_FILE = KaterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kater.KaterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaterApp.app/KaterApp";
+			};
+			name = Debug;
+		};
+		A2F1FCE221F3DD8D00496A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT99SMQYYW;
+				INFOPLIST_FILE = KaterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kater.KaterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaterApp.app/KaterApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +530,15 @@
 			buildConfigurations = (
 				A2F1FC9E21F29E0300496A04 /* Debug */,
 				A2F1FC9F21F29E0300496A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F1FCE021F3DD8D00496A04 /* Build configuration list for PBXNativeTarget "KaterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F1FCE121F3DD8D00496A04 /* Debug */,
+				A2F1FCE221F3DD8D00496A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
