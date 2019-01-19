@@ -1,0 +1,77 @@
+BCSymbolMap Version: 2.0
+_$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_TA
+_$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_TA
+_$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_yAcD_pcfU_
+_$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_yAcD_pcfU_TA
+_$S7ReSwift6Action_pWOc
+___swift_destroy_boxed_opaque_existential_1
+_symbolic x
+_symbolic B0
+__swift_FORCE_LOAD_$_swiftFoundation_$_ReSwiftThunk
+__swift_FORCE_LOAD_$_swiftDarwin_$_ReSwiftThunk
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_ReSwiftThunk
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_ReSwiftThunk
+__swift_FORCE_LOAD_$_swiftDispatch_$_ReSwiftThunk
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_ReSwiftThunk
+_symbolic 7ReSwift6Action_pIegn_
+_symbolic xSgIegr_
+_$S7ReSwift6Action_pML
+___swift_reflection_version
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc "/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/ReSwift-Thunk/createThunksMiddleware.swift" "/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/ReSwift-Thunk/Thunk.swift" -emit-module-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/ReSwiftThunk.swiftmodule -emit-module-doc-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/ReSwiftThunk.swiftdoc -serialize-diagnostics-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/ReSwift-Thunk-master.dia -emit-objc-header-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/ReSwiftThunk-Swift.h -emit-dependencies-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/ReSwift-Thunk-master.d -target arm64-apple-tvos9.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk -I /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/BuildProductsPath/Release-appletvos -F /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/BuildProductsPath/Release-appletvos -F "/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/Carthage/Build/tvOS" -g -module-cache-path /Users/malcolm/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/ReSwiftThunk-generated-files.hmap -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/ReSwiftThunk-own-target-headers.hmap -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/ReSwiftThunk-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/ReSwiftThunk-project-headers.hmap -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/BuildProductsPath/Release-appletvos/include -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/DerivedSources/arm64 -Xcc -I/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/DerivedSources -Xcc "-working-directory/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk" -module-name ReSwiftThunk -num-threads 8 -o /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/createThunksMiddleware.bc -o /Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/Objects-normal/arm64/Thunk.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/malcolm/Projects/ReSwift-Thunk
+Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
+/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/ReSwift-Thunk/createThunksMiddleware.swift
+__swift_destroy_boxed_opaque_existential_1
+<compiler-generated>
+$S7ReSwift6Action_pWOc
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_yAcD_pcfU_TA
+objectdestroy.5
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_yAcD_pcfU_
+createThunksMiddleware.swift
+/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/ReSwift-Thunk
+$S7ReSwift6Action_pMa
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_TA
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_yAcD_pcyAcD_pccfU_
+objectdestroy.2
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_TA
+$S12ReSwiftThunk22createThunksMiddlewarey0aB06Action_pcyAcD_pccyAcD_pc_xSgyctcylFyAcD_pcyAcD_pccyAcD_pc_AEyctcfU_
+objectdestroy
+createThunksMiddleware
+_$S12ReSwiftThunk0C0VMi
+_$S12ReSwiftThunk0C0VwCP
+_$S12ReSwiftThunk0C0Vwxx
+_$S12ReSwiftThunk0C0Vwcp
+_$S12ReSwiftThunk0C0Vwca
+___swift_memcpy16_8
+_$S12ReSwiftThunk0C0Vwta
+_$S12ReSwiftThunk0C0Vwet
+_$S12ReSwiftThunk0C0Vwst
+_$S12ReSwiftThunk0C0Vwxs
+_$S12ReSwiftThunk0C0Vwxg
+_$S12ReSwiftThunk0C0VWV
+_$S12ReSwiftThunkMXM
+_$S12ReSwiftThunk0C0VMI
+_$S12ReSwiftThunk0C0VMP
+_symbolic ____ 12ReSwiftThunk0C0V
+_symbolic yy7ReSwift6Action_pc_xSgyctc
+_$S12ReSwiftThunk0C0VMF
+/Users/malcolm/Dropbox (Personal)/Projects/ReSwift-Thunk/ReSwift-Thunk/Thunk.swift
+$S12ReSwiftThunk0C0VMa
+$S12ReSwiftThunk0C0Vwxg
+$S12ReSwiftThunk0C0Vwxs
+$S12ReSwiftThunk0C0Vwst
+$S12ReSwiftThunk0C0Vwet
+$S12ReSwiftThunk0C0Vwta
+__swift_memcpy16_8
+$S12ReSwiftThunk0C0Vwca
+$S12ReSwiftThunk0C0Vwcp
+$S12ReSwiftThunk0C0Vwxx
+$S12ReSwiftThunk0C0VwCP
+$S12ReSwiftThunk0C0VMi
+$S12ReSwiftThunk0C0VyxG0aB06ActionAAWa
+init
+Thunk.swift
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/malcolm/Library/Developer/Xcode/DerivedData/ReSwift-Thunk-ecfcobouzqawgmcywdmcwgdlpxyn/Build/Intermediates.noindex/ArchiveIntermediates/ReSwift-Thunk/IntermediateBuildFilesPath/ReSwift-Thunk.build/Release-appletvos/ReSwift-Thunk.build/DerivedSources/ReSwiftThunk_vers.c

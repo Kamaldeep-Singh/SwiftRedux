@@ -13,6 +13,13 @@
 		A2F1FC9421F29E0100496A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F1FC9221F29E0100496A04 /* Main.storyboard */; };
 		A2F1FC9621F29E0300496A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F1FC9521F29E0300496A04 /* Assets.xcassets */; };
 		A2F1FC9921F29E0300496A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F1FC9721F29E0300496A04 /* LaunchScreen.storyboard */; };
+		A2F1FCC521F2F39500496A04 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F1FCC421F2F39500496A04 /* ReSwift.framework */; };
+		A2F1FCC721F2F46C00496A04 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCC621F2F46C00496A04 /* Model.swift */; };
+		A2F1FCC921F2F7B300496A04 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCC821F2F7B300496A04 /* Actions.swift */; };
+		A2F1FCCC21F2F7FD00496A04 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCCB21F2F7FD00496A04 /* AddTripViewController.swift */; };
+		A2F1FCD021F2FAC600496A04 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCCF21F2FAC600496A04 /* Reducer.swift */; };
+		A2F1FCD221F3BEF500496A04 /* ReSwiftThunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F1FCD121F3BEF400496A04 /* ReSwiftThunk.framework */; };
+		A2F1FCD421F3D5F600496A04 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1FCD321F3D5F600496A04 /* TripListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		A2F1FC9521F29E0300496A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F1FC9821F29E0300496A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F1FC9A21F29E0300496A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F1FCC421F2F39500496A04 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		A2F1FCC621F2F46C00496A04 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A2F1FCC821F2F7B300496A04 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		A2F1FCCB21F2F7FD00496A04 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		A2F1FCCF21F2FAC600496A04 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		A2F1FCD121F3BEF400496A04 /* ReSwiftThunk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftThunk.framework; path = Carthage/Build/iOS/ReSwiftThunk.framework; sourceTree = "<group>"; };
+		A2F1FCD321F3D5F600496A04 /* TripListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F1FCC521F2F39500496A04 /* ReSwift.framework in Frameworks */,
+				A2F1FCD221F3BEF500496A04 /* ReSwiftThunk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,7 @@
 			children = (
 				A2F1FC8B21F29E0100496A04 /* KaterApp */,
 				A2F1FC8A21F29E0100496A04 /* Products */,
+				A2F1FCC321F2F39400496A04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 		A2F1FC8B21F29E0100496A04 /* KaterApp */ = {
 			isa = PBXGroup;
 			children = (
+				A2F1FCCA21F2F7BC00496A04 /* Trips */,
 				A2F1FC8C21F29E0100496A04 /* AppDelegate.swift */,
 				A2F1FC8E21F29E0100496A04 /* FirstViewController.swift */,
 				A2F1FC9021F29E0100496A04 /* SecondViewController.swift */,
@@ -65,6 +83,27 @@
 				A2F1FC9A21F29E0300496A04 /* Info.plist */,
 			);
 			path = KaterApp;
+			sourceTree = "<group>";
+		};
+		A2F1FCC321F2F39400496A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1FCD121F3BEF400496A04 /* ReSwiftThunk.framework */,
+				A2F1FCC421F2F39500496A04 /* ReSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F1FCCA21F2F7BC00496A04 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1FCC621F2F46C00496A04 /* Model.swift */,
+				A2F1FCC821F2F7B300496A04 /* Actions.swift */,
+				A2F1FCCF21F2FAC600496A04 /* Reducer.swift */,
+				A2F1FCCB21F2F7FD00496A04 /* AddTripViewController.swift */,
+				A2F1FCD321F3D5F600496A04 /* TripListViewController.swift */,
+			);
+			path = Trips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +116,7 @@
 				A2F1FC8521F29E0100496A04 /* Sources */,
 				A2F1FC8621F29E0100496A04 /* Frameworks */,
 				A2F1FC8721F29E0100496A04 /* Resources */,
+				A2F1FCC221F2F37300496A04 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,14 +173,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2F1FCC221F2F37300496A04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwiftThunk.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReSwiftThunk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2F1FC8521F29E0100496A04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F1FCC921F2F7B300496A04 /* Actions.swift in Sources */,
+				A2F1FCD421F3D5F600496A04 /* TripListViewController.swift in Sources */,
 				A2F1FC9121F29E0100496A04 /* SecondViewController.swift in Sources */,
 				A2F1FC8D21F29E0100496A04 /* AppDelegate.swift in Sources */,
 				A2F1FC8F21F29E0100496A04 /* FirstViewController.swift in Sources */,
+				A2F1FCD021F2FAC600496A04 /* Reducer.swift in Sources */,
+				A2F1FCC721F2F46C00496A04 /* Model.swift in Sources */,
+				A2F1FCCC21F2F7FD00496A04 /* AddTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +357,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N3N4ZN2SD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KaterApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +379,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N3N4ZN2SD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KaterApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

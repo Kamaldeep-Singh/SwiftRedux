@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "ReSwiftThunk",
+      "hash" : "4601713a092093418b849c798944a9bb8f36deae10ed1780998d19d07136e2d3"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "ReSwiftThunk",
+      "hash" : "d64df8cc8e31cf93d25301278bfe195ecc32580256f4e60dcfedfe21dda1f348"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "ReSwiftThunk",
+      "hash" : "01fd84f284d9e446ade4572865445debc52f325dcf0d1ddb115e6a0fa9ca0a5d"
+    }
+  ],
+  "commitish" : "1.1.0",
+  "iOS" : [
+    {
+      "name" : "ReSwiftThunk",
+      "hash" : "82860390b1606462cf7db879e8137f055113e25e84a5320e1027c3324481e769"
+    }
+  ]
+}
