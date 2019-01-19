@@ -14,10 +14,10 @@ import ReSwiftThunk
 enum TripAction: Action {
 	case listTrips([Trip])
 	case addTrip
-	case setDate(String)
+	case setDate(Date)
 	case setAddress(Address)
-	case setStartTime(String)
-	case setEndTime(String)
+	case setStartTime(Date)
+	case setEndTime(Date)
 	case setVehicle(Vehicle)
 	case addTripDetails(String)
 	case requestDriver(Trip)
@@ -29,6 +29,7 @@ enum TripAction: Action {
 func fetch<T: Codable>(_ request: URLRequest, completion: ((T) -> Void)?) {
 	URLSession.shared.dataTask(with: request) { (data, res, err) in
 		let decoder = JSONDecoder()
+		decoder.dateDecodingStrategy = .deferredToDate
 		guard let data = data,
 			let jsonObj = try? decoder.decode(T.self, from: data) else {
 				return
@@ -41,7 +42,7 @@ func addTripRequestAction(_ trip: Trip) -> Thunk<AppState> {
 	return Thunk<AppState> { dispatch, getState in
 		var req = URLRequest(url: URL(string: "http://localhost:2334/add")!)
 		req.httpBody = try? JSONEncoder().encode([
-			"date": trip.date?.description ?? ""
+			"date": trip.date
 		])
 		req.httpMethod = "POST"
 		req.addValue("application/json", forHTTPHeaderField: "Content-Type")

@@ -62,7 +62,7 @@ class AddTripViewController: UIViewController, StoreSubscriber {
 
 extension AddTripViewController {
 	@IBAction func dateChanged(_ datePicker: UIDatePicker) {
-		mainStore.dispatch(TripAction.setDate(datePicker.date.description))
+		mainStore.dispatch(TripAction.setDate(datePicker.date))
 	}
 }
 

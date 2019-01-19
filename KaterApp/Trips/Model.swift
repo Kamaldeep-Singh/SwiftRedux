@@ -32,10 +32,10 @@ public struct Vehicle: Codable {
 
 public struct Trip: Codable {
 	var id: String?
-	var date: String?
+	var date: Date?
 	var address: Address?
-	var startTime: String?
-	var endTime: String?
+	var startTime: Date?
+	var endTime: Date?
 	var vehicle: Vehicle?
 	var details: String?
 }
